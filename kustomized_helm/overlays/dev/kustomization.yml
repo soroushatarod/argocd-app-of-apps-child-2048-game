@@ -15,7 +15,7 @@ resources:
 
 images:
 - name: blah-blah:blah
-  newName: alexwhen/docker-2048
+  newName: fxmarketsquad0.azurecr.io/alexwhen/docker-2048
   newTag: latest
 
 patchesJson6902:
