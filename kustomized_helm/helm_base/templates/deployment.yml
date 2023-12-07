@@ -16,7 +16,7 @@ spec:
       containers:
       - name: 2048-app
         # Replace with your docker registry info
-        image: fxmarketsquad0.azurecr.io/alexwhen/docker-2048:v2
+        image: fxmarketsquad0.azurecr.io/alexwhen/docker-2048:{{ .Values.tag }}
         imagePullPolicy: Always
         ports:
         - containerPort: 80
